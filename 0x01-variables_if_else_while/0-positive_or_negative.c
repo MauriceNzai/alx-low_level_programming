@@ -25,7 +25,7 @@ int main(void)
 */
   if (n > 0)
     {
-      Printf(" is positive\n");
+      printf(" is positive\n");
     }
   else if (x < 0)
     {
