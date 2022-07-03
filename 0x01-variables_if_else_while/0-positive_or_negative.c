@@ -1,3 +1,9 @@
+/**
+ *Program to determine whethere a randomly generated number
+ *is positive
+ *is Zero or
+ *is Negative
+ */
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -19,7 +25,7 @@ int mmain(void)
    */
   if (n > 0)
     {
-      pringtf("%d is positive\n", n);
+      printf("%d is positive\n", n);
     }
   if (n = 0)
     {
