@@ -1,0 +1,27 @@
+/**
+ *This program prints the alphabet in lowercas
+ *and in the reverse order followed by a new line
+ *
+ *using the function putchar
+ */
+
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+  char lower;
+
+  for (lower = 'z'; lower>= 'a'; lower--)
+    {
+      putchar(lower);
+      putchar('\n');
+    }
+
+  return (0);
+}
