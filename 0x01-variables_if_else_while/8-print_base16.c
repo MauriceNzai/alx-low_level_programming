@@ -22,7 +22,7 @@ int main(void)
   {
     putchar(n);
   }
-  for lower = 'a'; lower <= 'f'; lower++)
+  for(lower = 'a'; lower <= 'f'; lowe++)
     {
       putchar(lower);
     }
