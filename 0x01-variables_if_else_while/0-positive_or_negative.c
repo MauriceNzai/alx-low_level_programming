@@ -15,7 +15,7 @@
  *
  * Return: Always 0 (Success)
  */
-int mmain(void)
+int main(void)
 {
   int n;
   srand(time(0));
@@ -33,7 +33,7 @@ int mmain(void)
     }
   else
     {
-      printf("%d is negative\n" n);
+      printf("%d is negative\n", n);
     }
   return (0);
 }
