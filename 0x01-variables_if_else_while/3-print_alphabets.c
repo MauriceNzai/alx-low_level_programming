@@ -13,7 +13,7 @@
 * return: Always 0 (Success)
 */
 
-int maint(void)
+int main(void)
 {
   char lower;
 
