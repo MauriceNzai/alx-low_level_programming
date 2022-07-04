@@ -1,10 +1,3 @@
-/**
- *Program to determine whethere a randomly generated number
- *is positive
- *is Zero or
- *is Negative
- */
-
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -12,9 +5,14 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - Entry point and main block
  *
- * Return: Always 0 (Success)
+ * Program to determine whether a randomly generated number
+ * is Positive
+ * is Zero
+ * is Negative
+ *
+ * Return: 0 (Success)
  */
 
 int main(void)
