@@ -3,7 +3,7 @@
 /**
  * main - Entry point and the main block
  * Description: Print all possible combinations of two digits
- * The two digits must be differnt 
+ * The two digits must be differnt
  * 01 and 10 are considered the same combination of 0 and 1
  * print only the smallest combination of the two digits
  * Numbers should be printed in ascending order, with two digits
@@ -39,5 +39,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return(0);
+return (0);
 }
