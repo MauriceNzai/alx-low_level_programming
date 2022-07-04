@@ -8,22 +8,21 @@
 #include <stdlib.h>
 
 /**
- *main  -  Entry point
+ * main  -  Entry point
  *
- *Return:  Always  0 (Success)
+ * Return:  Always  0 (Success)
  */
 
 int main(void)
 {
-  char lower = 'a';
+char lower = 'a';
 
-  while (lower <= 'z')
-    {
-      
-      putchar(lower);
-      lower++;
-      putchar('\n');
-    }
+while (lower <= 'z')
+{
+putchar(lower);
+lower++;
+putchar('\n');
+}
 
-  return (0);
+ return (0);
 }
