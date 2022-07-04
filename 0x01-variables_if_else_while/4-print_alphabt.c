@@ -1,15 +1,14 @@
-/**
- *This program prints the letters of the aphabet
- *in lowercase except letters q and e
- *Only putchar function is allowed
- */
-
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point and the main block
  *
- * Return: Always 0 (Success)
+ * This program will print the letters of the alphabet
+ * in lowercase except letters q and e
+ *
+ * You can only use the putchar function
+ *
+ * Return: 0 Always 0 (Success)
  */
 
 int main(void)
