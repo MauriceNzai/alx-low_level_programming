@@ -1,12 +1,3 @@
-/**
- *This program will assign a random number
- *to the variabl n each time it is executed.
- *
- *The program wll the print the last digit
- *of the number stored in the variable n.
- *
- */
-
 #include <stdio.h>
 
 #include <time.h>
@@ -14,9 +5,15 @@
 #include <stdlib.h>
 
 /**
-*main - Entry point
+* main - Entry point and main block
 *
-*Return: Always 0 (Success)
+* This program will assign a ramdom number
+* to the variable n each time it is executed
+*
+* It will then print the last digit of the number
+* stored in the variable n
+*
+* Return: 0 (Success)
 */
 
 int main(void)
