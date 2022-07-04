@@ -22,11 +22,11 @@ int main(void)
 
   srand(time(0));
   n = rand() - RAND_MAX / 2;
-  
+
 /**
  *Determine if numeber is Positive, Zero or Negative
  */
-  
+
 if (n > 0)
   printf("%d is positive\n", n);
 
