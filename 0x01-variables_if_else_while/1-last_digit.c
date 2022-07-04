@@ -1,8 +1,8 @@
 /**
- *This program will assign a random number 
+ *This program will assign a random number
  *to the variabl n each time it is executed.
  *
- *The program wll the print the last digit 
+ *The program wll the print the last digit
  *of the number stored in the variable n.
  *
  */
