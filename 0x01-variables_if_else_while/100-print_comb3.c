@@ -16,28 +16,28 @@
 
 int main(void)
 {
-  int x;
-  int y;
+int x;
+int y;
 
-  for (x = '0'; x < '9'; x++)
-  {
-    for (y = x + 1; y <= '9'; y++)
-    {
-      if (x != y)
-      {
-	putchar(x);
-	putchar(y);
+for (x = '0'; x < '9'; x++)
+{
+for (y = x + 1; y <= '9'; y++)
+{
+if (x != y)
+{
+putchar(x);
+putchar(y);
 
-	if (x == '8' && y == '9')
-	continue;
+if (x == '8' && y == '9')
+continue;
 
 
-	putchar(',');
-	putchar(' ');
+putchar(',');
+putchar(' ');
 
-      }
-    }
-  }
-  putchar('\n');
-  return(0);
+}
+}
+}
+putchar('\n');
+return(0);
 }
