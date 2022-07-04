@@ -1,17 +1,16 @@
-/**
- *This program prints all single digit numbers of base 10
- *starting from 0 and followed by a new line
- *
- *Using the putchar function
- */
-
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point and the main block
  *
- * Return: Always 0 (Success)
+ * This program print all single digit numbers of base 10
+ * starting from 0 and followed by a new line
+ *
+ * You can only use the putchar function
+
+ * Return: 0 Always (Success)
  */
+
 int main(void)
 {
 int num;
