@@ -1,16 +1,14 @@
-/**
- *This program prints the alphabet in lowercas
- *and in the reverse order followed by a new line
- *
- *using the function putchar
- */
-
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point and the main block
  *
- * Return: Always 0 (Success)
+ * This program prints the alphabet in lowercase
+ * and in reverse order followed by a new line
+ *
+ * You can only use the putchar function
+
+ * Return: 0 (Success)
  */
 
 int main(void)
