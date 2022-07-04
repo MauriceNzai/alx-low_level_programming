@@ -1,5 +1,5 @@
 /**
- *This program will print all possible combinations of single digit numbers
+ *Description: Print all possible combinations of single digit numbers
  *
  *The number shall be separeted by a comma and followed by a space
  *
@@ -11,9 +11,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - main entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 
 int main(void)
