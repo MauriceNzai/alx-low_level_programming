@@ -1,17 +1,13 @@
-/**
- *Description: Print all possible combinations of single digit numbers
- *
- *The number shall be separeted by a comma and followed by a space
- *
- *Only putchar function is to be used and a maximum four times
- *
- *No variable of type char is to be used
- */
-
 #include <stdio.h>
 
 /**
- * main - main entry point
+ * main - main entry point and the main block
+ *
+ * Description: Print all possible combinations of single digit number
+ * The number shall be seperated by commas and followed by a space
+ *
+ * only putchar function is to be used and a maximun 4 times
+ * No variable of type char is to be used
  *
  * Return: 0 (Success)
  */
