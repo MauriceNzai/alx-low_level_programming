@@ -14,24 +14,24 @@
 
 int main(void)
 {
-  char lower;
-  char e;
-  char q;
+char lower;
+char e;
+char q;
 
-  e = 'e';
-  q= 'q';
+e = 'e';
+q= 'q';
 
-  for (lower ='a'; lower <= 'z'; lower++)
-    {
-      if (lower != e && lower != q)
-	{
-	  putchar(lower);
-	}
-    }
+for (lower ='a'; lower <= 'z'; lower++)
+{
+if (lower != e && lower != q)
+{
+putchar(lower);
+}
+}
 
-      putchar('\n');
+putchar('\n');
 
-      return (0);
+return (0);
     }
       
 
