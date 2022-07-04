@@ -1,14 +1,12 @@
-/**
- *this program prints the letters
- *of the aphabet in lowercase
- */
-
 #include <stdio.h>
 
 #include <stdlib.h>
 
 /**
- * main  -  Entry point
+ * main  -  Entry point and main block
+ *
+ * This program prints the letters
+ * of the alphabet in lowercase
  *
  * Return:  Always  0 (Success)
  */
