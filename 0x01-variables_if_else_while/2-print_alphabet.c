@@ -7,7 +7,6 @@
  *
  * This program prints the letters
  * of the alphabet in lowercase
- * 
  * You can only use the function putchar and only twice
  * All your code should be in the main function
  *
