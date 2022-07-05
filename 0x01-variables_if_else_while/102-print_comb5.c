@@ -3,7 +3,7 @@
 /**
  * main - Entry point and the main block
  *
- * Description: This program will print 
+ * Description: This program will print
  * all possible combinations of two two-digit numbers
  *
  * The numbers should range from 0 to 99
