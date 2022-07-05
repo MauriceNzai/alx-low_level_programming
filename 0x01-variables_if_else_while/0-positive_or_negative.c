@@ -8,9 +8,9 @@
  * main - Entry point and main block
  *
  * Description: Program to determine whether a randomly generated number
- * is Positive
- * is Zero
- * is Negative
+ * If number is positive, print string  is Positive
+ * If number is zero, print string, is Zero
+ * If number is negative, print string, is Negative
  *
  * Return: 0 (Success)
  */
