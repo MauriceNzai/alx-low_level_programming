@@ -8,9 +8,9 @@
  * main - Entry point and main block
  *
  * This program will determine whether a randomly generated number
- * 
+ *
  * The output of the program should be,
- * 
+ *
  * The number, followed by is positive, if the number is Positive
  * The number, followed by is zero, if the number is Zero
  * The number, followed by is negative,if the number is Negative
