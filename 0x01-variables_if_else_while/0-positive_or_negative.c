@@ -7,7 +7,7 @@
 /**
  * main - Entry point and main block
  *
- * Program to determine whether a randomly generated number
+ * Description: Program to determine whether a randomly generated number
  * is Positive
  * is Zero
  * is Negative
