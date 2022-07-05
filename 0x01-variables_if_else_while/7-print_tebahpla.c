@@ -7,7 +7,7 @@
  * and in reverse order followed by a new line
  *
  * You can only use the putchar function
-
+ *
  * Return: 0 (Success)
  */
 
