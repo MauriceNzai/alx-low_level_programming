@@ -1,16 +1,14 @@
-/**
- *This program prints all the numbers of base 16
- *in lowercase and followed by a new line
- *
- *using the putchar function
- */
-
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point and main block
  *
- * Return: Always 0 (Success)
+ * Description: This program prints all the number of base 16
+ * in lowercase and followed by a new line
+ *
+ * You are only allowed to use the putchar function and only 3 times
+ *
+ * Return: 0 Always (Success)
  */
 
 int main(void)
