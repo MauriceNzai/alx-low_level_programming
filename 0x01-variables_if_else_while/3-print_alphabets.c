@@ -7,8 +7,8 @@
 * followed by a new line
 *
 * You can only use the putchar function
-
-* Return: 0 Always 0 (Success)
+*
+* Return: 0 Always (Success)
 */
 
 int main(void)
