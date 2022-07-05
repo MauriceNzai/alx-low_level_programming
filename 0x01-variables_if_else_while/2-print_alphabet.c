@@ -15,14 +15,12 @@
 
 int main(void)
 {
-char lower = 'a';
+char lower;
 
-while (lower <= 'z')
+for (lower = 'a'; lower <= 'z'; lower++)
 
 putchar(lower);
-lower++;
 putchar('\n');
-
 
 return (0);
 }
