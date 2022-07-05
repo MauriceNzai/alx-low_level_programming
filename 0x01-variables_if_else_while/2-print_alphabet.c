@@ -3,12 +3,15 @@
 #include <stdlib.h>
 
 /**
- * main  -  Entry point and main block
+ * main - Entry point and main block
  *
  * This program prints the letters
  * of the alphabet in lowercase
+ * 
+ * You can only use the function putchar and only twice
+ * All your code should be in the main function
  *
- * Return:  Always  0 (Success)
+ * Return: 0 Always (Success)
  */
 
 int main(void)
