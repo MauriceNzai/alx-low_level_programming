@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isLower(int c) - See description
+ * _islower(int c) - See description
  *
  * @c: An input character
  *
@@ -11,7 +11,7 @@
  *
  */
 
-int _isLower(int c)
+int _islower(int c)
 {
 char my_char;
 int lower = 0;
