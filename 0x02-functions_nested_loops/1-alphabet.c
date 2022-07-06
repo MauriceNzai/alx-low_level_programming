@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet() - See description
+ * print_alphabet - See description
  * Description: It prints the alphabet in lowercase followed by a new line
  * Can only use _putchar twice
  *
