@@ -18,7 +18,7 @@ int lower = 0;
 
 for (my_char = 'a'; my_char <= 'z'; my_char++)
 {
-if (i == c)
+if (my_char == c)
 lower = 1;
 }
 
