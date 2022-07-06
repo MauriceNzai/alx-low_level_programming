@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower(int c) - See description
+ * _islower - See description
  *
  * @c: An input character
  *
