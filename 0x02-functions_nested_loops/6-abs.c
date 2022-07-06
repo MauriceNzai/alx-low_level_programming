@@ -3,17 +3,17 @@
 /**
  * _abs - See description.
  *
- * @x: An integer input
+ * @r: An integer input
  *
  * Description: Computes the absolute value of an integer.
  *
- * Return: Absolute value of x
+ * Return: Absolute value of r
 */
 
-int _abs(int x)
+int _abs(int r)
 {
-if (x >= 0)
-return (x);
+if (r >= 0)
+return (r);
 else
 return (r * -1);
 }
