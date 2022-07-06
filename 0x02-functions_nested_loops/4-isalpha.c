@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha(int c) - See description
+ * _isalpha - See description
  *
  * @c: An input character
  *
