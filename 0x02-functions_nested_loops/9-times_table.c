@@ -20,8 +20,9 @@ for (y = 0; y <= 9; y++)
 {
 z = x * y;
 
-if (y != 0)
+if ((z / 10) == 0)
 {
+if (y != 0)
 _putchar (' ');
 _putchar(z + '0');
 
