@@ -20,7 +20,7 @@ fibonacci[1] = 2;
 
 printf("%ld, %ld", fibonacci[0], fibonacci[1]);
 
-for (x = 2, x < 50; x++)
+for (x = 2; x < 50; x++)
 {
 fibonacci[x] = fibonacci[x - 1] + fibonacci[x - 2];
 
@@ -28,7 +28,7 @@ if (x == 49)
 printf("%ld\n", fibonacci[x]);
 
 else
-printf("%ld, ", fibonacci[i]);
+printf("%ld, ", fibonacci[x]);
 }
 
 return (0);
