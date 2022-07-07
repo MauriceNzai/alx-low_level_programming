@@ -15,14 +15,10 @@ void print_times_table(int n)
 int x;
 int y;
 
-/**
- * Testing
- * this loop
- */
- 
-if (n >= 0 && n <= 15)
-{
+/* Testing this loop */
 
+if (n >= 0 && n < 16)
+{
 for (x = 0; x <= n; x++)
 {
 _putchar('0');
