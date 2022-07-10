@@ -3,7 +3,7 @@
 /**
  * main - entry point abd main block
  *
- * Description: This program finds and prints the largest prime factor of 
+ * Description: This program finds and prints the largest prime factor of
  * the number 612852475143, followed by a new line.
  *
  * Return: 0(success)
@@ -14,7 +14,7 @@ int main(void)
 unsigned long int x;
 unsigned long int num;
 
-num = 612852475143; 
+num = 612852475143;
 
 for (x = 3; x < 12057; x += 2)
 {
