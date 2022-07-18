@@ -10,9 +10,9 @@
  * Return: Pointers to dest
  */
 
-char *_memcpt(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-char *beging = dest;
+char *begin = dest;
 
 while (n--)
 {
