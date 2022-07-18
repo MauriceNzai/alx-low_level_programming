@@ -22,11 +22,11 @@ while (*accept)
 if (*accept == *s)
 return (s);
 
-accept++
+accept++;
 }
 
 accept = begin;
-s++
+s++;
 }
 
 return (NULL);
