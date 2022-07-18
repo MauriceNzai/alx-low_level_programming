@@ -29,7 +29,7 @@ break;
 }
 accept++;
 }
-s++
+s++;
 accept = begin;
 if (flag == 0)
 break;
