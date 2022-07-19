@@ -13,21 +13,26 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-char *begin = accept;
+int i;
+int j;
+int t;
 
-while (*s)
+i = 0;
+while (s[i] != '\0')
 {
 
-while (*accept)
-if (*accept == *s)
-return (s);
-
-accept++;
+t = 0;
+for (j = 0; accept[j] != '\0'; j++)
+{
+if (s[i] == accept[j])
+t = 1;
 }
 
-accept = begin;
-s++;
+j = 0;
+if (t == 1)
+return (s + i);
+i++;
 }
 
-return (NULL);
+return (0);
 }
