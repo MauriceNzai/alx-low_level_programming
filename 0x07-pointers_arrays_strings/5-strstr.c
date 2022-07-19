@@ -20,6 +20,7 @@ char *beginning = haystack;
 char *pattern = needle;
 
 while (*pattern == *haystack && *pattern != '\0' && *haystack != '\0')
+{
 haystack++;
 pattern++;
 }
