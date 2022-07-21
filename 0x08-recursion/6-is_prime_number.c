@@ -1,5 +1,6 @@
 #include "main.h"
 
+int is_divisible(int num, int divisible);
 /**
  * is_prime_number - Returns 1 if iput integer is prime number, otherwise 0
  *
@@ -10,14 +11,14 @@
 
 int is_prime_number(int n)
 {
-if (n == 0)
+
+int divisible = 2;
+
+if (n <= 1)
 return (0);
 
-if (n < 0)
-return (0);
-
-if (n == 1)
-return (0);
+if (n <= 3)
+return (1);
 
 return (is_divisible(n, divisible));
 }
